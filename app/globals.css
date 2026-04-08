@@ -12,7 +12,7 @@
   --font-mono: var(--font-geist-mono);
 }
 
-@media (prefers-color-scheme: dark) {
+@media (prefers-color-scheme: light) {
   :root {
     --background: #0a0a0a;
     --foreground: #ededed;
@@ -23,4 +23,58 @@ body {
   background: var(--background);
   color: var(--foreground);
   font-family: Arial, Helvetica, sans-serif;
+}
+
+@layer components {
+  .btn-primary {
+    @apply bg-[#652D8E] text-white px-5 py-3 rounded-full font-medium
+           transition-all duration-200 border-2 border-[#652D8E];
+  }
+  .btn-secondary {
+    @apply bg-[#FFFFFF] text-[#652D8E] px-5 py-3 rounded-full font-medium
+           transition-all duration-200 border-2;
+  }
+}
+
+.desktop-clearfix {
+  clear: both;
+  display: block;
+}
+
+nav li {
+  position: relative;
+}
+nav li:not(:last-child).active a,
+nav li:not(:last-child) a:hover {
+  background: linear-gradient(90deg, #942681, #293579);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+nav li a::after{
+  content: "";
+  display: block;
+  width: 0px;
+  height: 3px;
+  background: linear-gradient(90deg, #942681, #293579);
+  position: absolute;
+  bottom: 0px;
+  left: 0;
+  right: 0;
+  margin-left: auto;
+  margin-right: auto;
+  transition: width 0.3s ease;
+}
+
+
+nav li:not(:last-child).active a::after,
+nav li:not(:last-child):hover a::after {
+  width: 100%;
+}
+
+
+@media only screen and (min-width: 360px) and (max-width: 767px) {
+  .desktop-clearfix {
+    clear: none;
+    display: inline;
+  }
 }
