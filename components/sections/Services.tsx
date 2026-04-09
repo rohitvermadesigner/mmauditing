@@ -3,135 +3,110 @@
 import React from "react";
 import style from "./Services.module.css";
 import Image from "next/image";
+import Link from "next/link";
 
 const serviceList = [
   {
-    title: "ACCURACY",
+    title: "External Audit",
     description:
-      "Precision and accuracy in every audit, ensuring clarity and compliance.",
-    icon: "/images/core-values-icon-1.svg",
+      "Our auditors conduct an independent review of financial statements, testing internal controls and verifying transactions to ensure accurate, compliant, and reliable reporting.",
+    icon: "/images/s1.png",
   },
   {
-    title: "INTEGRITY",
+    title: "COMPLIANCE AUDIT",
     description:
-      "Transparency, integrity, and ethics, with unwavering confidentiality and discretion.",
-    icon: "/images/core-values-icon-2.svg",
+      "We assess internal controls, review procedures, and test compliance with UAE regulatory requirements to minimize risk and ensure reliable reporting.",
+      icon: "/images/s3.png",
+    },
+    {
+      title: "STOCK AUDITC",
+      description:
+      "Our stock audit services focus on verifying inventory, reconciling records, and uncovering discrepancies to improve accuracy and enhance control over stock management.",
+      icon: "/images/s2.png",
   },
   {
-    title: "CLIENT CENTRIC",
+    title: "INTERNAL AUDIT",
     description:
-      "Delivering focused support and exceptional service, aligned with client goals.",
-    icon: "/images/core-values-icon-3.svg",
-  },
-  {
-    title: "COMPLIANCE FOCUS",
-    description:
-      "Guiding clients through UAE regulations to stay compliant and minimise risk.",
-    icon: "/images/core-values-icon-4.svg",
+      "Our team of internal audit consultants evaluates processes, controls, and operations to identify gaps, strengthen governance, and improve risk management across your business.",
+    icon: "/images/s4.png",
   },
 ];
 
 const Services = () => {
   return (
-   <section className={` ${style.servicesSection} text-white`}>
-    <div className="max-w-7xl mx-auto py-8 md:py-16 px-4 md:px-0">
-      <div className="row">
-        <div className="col-md-6">
-          <div className="services-head mx-auto pb-5">
-            <div className="service-content">
-              <span className="btn btn-custom"><span>WHY CHOOSE US</span></span>
-              <h2 className="heading2">Our Services</h2>
-              <p>
-                We are licensed by the Department of Economic Development (DED)
-                and the Ministry of Economy to provide impartial audit opinions
-                on corporate financial statements. Our comprehensive audit
-                services assess your financial position, income, equity changes,
-                cash flows, and accounting policies in line with IAS and IFRS.
-                Additionally, we offer review reports, sales reports, and other
-                tailored procedure assignments to meet your specific needs and
-                drive your business forward.
-              </p>
-            </div>
-            <div className="service-img">
-              <Image src="/images/service-icon-img.png" alt="service icon" width={500} height={500} className="img-fluid" />
+    <section className={` ${style.servicesSection} text-white`}>
+      <div className="max-w-7xl mx-auto py-8 md:py-16 md:pb-28 px-4 md:px-0">
+        <div className="grid md:grid-cols-2 gap-8">
+          <div className="pr-12">
+            <div className="services-head mx-auto pb-5">
+              <div className="service-content">
+                <span className="bg-[#FFFFFF] rounded-full px-4 py-2">
+                  <span className="bg-gradient-to-r from-[#942681] to-[#293579] bg-clip-text text-transparent">
+                    OUR SERVICES
+                  </span>
+                </span>
+                <h2 className="text-3xl md:text-5xl font-bold mt-5 leading-14">
+                  Comprehensive Audit Solutions
+                </h2>
+                <p className="mt-6 pr-20">
+                  We are licensed by the Department of Economic Development
+                  (DED) and the Ministry of Economy to provide impartial audit
+                  opinions on corporate financial statements. Our comprehensive
+                  audit services assess your financial position, income, equity
+                  changes, cash flows, and accounting policies in line with IAS
+                  and IFRS. Additionally, we offer review reports, sales
+                  reports, and other tailored procedure assignments to meet your
+                  specific needs and drive your business forward.
+                </p>
+              </div>
+              <div className="service-img">
+                <Image
+                  src="/images/service-icon-img.png"
+                  alt="service icon"
+                  width={500}
+                  height={500}
+                  className="img-fluid"
+                />
+              </div>
             </div>
           </div>
-        </div>
-        <div className="col-md-6">
-          <div className="row">
-            <div className="col-md-6">
-              <a href="external-audit.html" className="service-info">
-                <div className="title-wrapper">
-                  <h5 className="py-2">External <br />Audit</h5>
-                  <span className="service-img-cirlce">
-                    <img src="assets/images/s1.png" alt="icon" className="s1" />
-                  </span>
-                </div>
-                <p className="para">
-                  Our team is dedicated to providing professional, thorough,
-                  and insightful audit services with a focus on quality and
-                  precision. Here’s what sets us apart among other audit
-                  companies...
-                </p>
-                <span className="btn btn-custom"><span> Read More </span></span>
-              </a>
-            </div>
-            <div className="col-md-6">
-              <a href="stock-audit.html" className="service-info service-info-right">
-                <div className="title-wrapper">
-                  <h5 className="py-2">Stock <br />Audit</h5>
-                  <span className="service-img-cirlce">
-                    <img src="assets/images/s2.png" alt="icon" className="s1" />
-                  </span>
-                </div>
-                <p className="para">
-                  By partnering with one of the leading audit firms in UAE,
-                  you ensure that your business benefits from a transparent,
-                  efficient, and accurate stock management system that drives
-                  better...
-                </p>
-                <span className="btn btn-custom"><span> Read More </span></span>
-              </a>
-            </div>
-            <div className="col-md-6">
-              <a href="liquidation-report.html" className="service-info">
-                <div className="title-wrapper">
-                  <h5 className="py-2">Liquidation <br />Report</h5>
-                  <span className="service-img-cirlce">
-                    <img src="assets/images/s3.png" alt="icon" className="s1" />
-                  </span>
-                </div>
-                <p className="para">
-                  While the UAE is one of the most business-friendly
-                  environments globally, with its strategic location and
-                  thriving economy, the journey to success is not always
-                  straightforward... 
-                </p>
-                <span className="btn btn-custom"><span> Read More </span></span>
-              </a>
-            </div>
-            <div className="col-md-6">
-              <a href="internal-audit.html" className="service-info service-info-right">
-                <div className="title-wrapper">
-                  <h5 className="py-2">Internal <br />Audit</h5>
-                  <span className="service-img-cirlce">
-                    <img src="assets/images/s4.png" alt="icon" className="s1" />
-                  </span>
-                </div>
-                <p className="para">
-                  There are many auditing companies in the UAE, but selecting
-                  the right one is crucial for achieving comprehensive,
-                  reliable results. As one of the top auditing companies in
-                  Dubai... 
-                </p>
-                <span className="btn btn-custom"><span> Read More </span></span>
-              </a>
+          <div>
+            <div className="grid md:grid-cols-2 gap-12">
+              {serviceList?.map((item, index) => {
+                return (
+                  <Link
+                    key={index}
+                    href="#"
+                    className={`bg-white rounded-xl block p-4 p-8 pb-12 relative ${index === 1 || index === 3 ? 'translate-y-12' : ''} `}
+                  >
+                    <div className="flex items-center gap-0 mb-4">
+                      <h5 className="bg-gradient-to-r from-[#942681] to-[#293579] bg-clip-text text-transparent text-[1.3rem] font-bold uppercase">
+                        {item.title.split(" ")[0]} <br />
+                        {item.title.split(" ")[1]}
+                      </h5>
+                      <div className="bg-[linear-gradient(90deg,#293579,#942681)] rounded-full font-medium flex justify-center items-center w-16 h-16 absolute right-4">
+                        <Image
+                          src={item.icon}
+                          alt={item.title}
+                          width={40}
+                          height={0}
+                        />
+                      </div>
+                    </div>
+                    <p className="text-[#293579] text-sm">
+                      {item.description}
+                    </p>
+                    <span className="bg-[#2935794D] rounded-full py-[2px] px-4 absolute bottom-4 right-4">
+                      <span className="bg-gradient-to-r from-[#942681] to-[#293579] bg-clip-text text-transparent text-sm"> Read More</span>
+                    </span>
+                  </Link>
+                );
+              })}
             </div>
           </div>
         </div>
       </div>
-    </div>
-  </section>
+    </section>
   );
 };
 

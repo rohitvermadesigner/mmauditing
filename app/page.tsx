@@ -1,9 +1,10 @@
 import About from "@/components/sections/About";
 import Hero from "@/components/sections/Hero";
-import LogoSlider from "@/components/sections/LogoSlider";
-import Package from "@/components/sections/Package";
 import CoreValues from "@/components/sections/CoreValues";
 import Services from "@/components/sections/Services";
+import LogoSlider from "@/components/sections/LogoSlider";
+import Team from "@/components/sections/Team";
+import Cta from "@/components/sections/Cta";
 
 export default function Home() {
   return (
@@ -13,7 +14,8 @@ export default function Home() {
       <About />
       <Services />
       <LogoSlider />
-      <Package />
+      <Team />
+      <Cta />
     </div>
   );
 }

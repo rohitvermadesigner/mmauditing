@@ -25,7 +25,7 @@ const Header = () => {
           <div className="w-full md:w-1/3 md:w-auto">
             <div className="flex items-center justify-between">
               <div className="flex items-center">
-                <a href="index.html" className="flex items-center gap-3">
+                <Link href="/" className="flex items-center gap-3">
                   <Image
                     src="/images/logo.svg"
                     width={180}
@@ -33,7 +33,7 @@ const Header = () => {
                     alt="MM Auditing"
                     className="h-20 w-auto"
                   />
-                </a>
+                </Link>
               </div>
               <div className="flex items-center gap-4">
                 <button
@@ -76,7 +76,7 @@ const Header = () => {
 
                   <li className="mt-4 md:mt-0">
                     <Link
-                      href="contact.html"
+                      href="contact"
                       className="bg-[linear-gradient(90deg,#942681,#293579)] text-[#ffffff] py-3 px-5 rounded-full drop-shadow-[2px_4px_10px_#AD46FF4D] ml-12"
                     >
                       Contact Us

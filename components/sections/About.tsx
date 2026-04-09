@@ -1,6 +1,7 @@
 import React from "react";
 import style from "./About.module.css";
 import Image from "next/image";
+import Link from "next/link";
 
 function About() {
   return (
@@ -32,12 +33,12 @@ function About() {
             </p>
 
             <div className="block mt-8">
-              <a
+              <Link
                 href="about"
                 className="bg-[linear-gradient(90deg,#942681,#293579)] text-[#ffffff] py-3 px-5 rounded-full drop-shadow-[2px_4px_10px_#AD46FF4D] inline-block transform transition-all hover:-translate-y-2 duration-300"
               >
                 Know More
-              </a>
+              </Link>
             </div>
 
             <span className="absolute top-8 right-[30rem] h-32 w-32 border-4 border-[#DAB2FF4D] rounded-full"></span>

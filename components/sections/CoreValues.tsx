@@ -33,6 +33,12 @@ const coreValueList = [
       "Guiding clients through UAE regulations to stay compliant and minimise risk.",
     icon: "/images/core-values-icon-4.svg",
   },
+  {
+    title: "PROFESSIONALISM",
+    description:
+      "We combine professional excellence with genuine respect and collaboration.",
+    icon: "/images/core-values-icon-4.svg",
+  },
 ];
 
 const CoreValues = () => {
@@ -44,23 +50,23 @@ const CoreValues = () => {
             Core Values Driving Every Decision
           </h2>
           <p className="px-4 font-medium mt-2">
-            Our core values guide every engagement, delivering transparency,
-            quality, and alignment for clients, team, and community.
+            Our core values guide every engagement, delivering transparency, quality, and
+alignment for clients, team, and community.
           </p>
         </div>
 
         <div className="mt-12">
           <Swiper
             modules={[Navigation, Autoplay]}
-            spaceBetween={30}
-            slidesPerView={4}
+            spaceBetween={20}
+            slidesPerView={5}
             autoHeight={false}
           >
             {coreValueList?.map((item, index) => {
               return (
                 <SwiperSlide key={index} className="py-4">
                   <div
-                    className="bg-[linear-gradient(0deg,_#293579,_#942681)] border-[1px] border-[#a5529a] rounded-[0.9rem] p-6 text-left inline-block h-64 hover:translate-y-[-10px] transition-transform duration-300"
+                    className="bg-[linear-gradient(0deg,_#293579,_#942681)] border-[1px] border-[#a5529a] rounded-[0.9rem] p-4 text-left inline-block h-60 hover:translate-y-[-10px] transition-transform duration-300"
                   >
                     <Image
                       src={item.icon}
@@ -68,8 +74,8 @@ const CoreValues = () => {
                       height={0}
                       alt={item.title}
                     />
-                    <h3 className="text-[1.25rem] font-bold mt-4">{item.title}</h3>
-                    <p className="mt-4">{item.description}</p>
+                    <h3 className="text-[1.1rem] font-bold mt-4">{item.title}</h3>
+                    <p className="mt-4 text-sm">{item.description}</p>
                   </div>
                 </SwiperSlide>
               );

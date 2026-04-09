@@ -1,0 +1,21 @@
+/* .teamSwiper :global(.swiper-pagination) {
+  bottom: -50px;
+} */
+
+
+:global(.swiper-pagination) {
+  position: relative;
+  margin-top: 50px;
+}
+
+:global(.swiper-pagination-bullet) {
+  background: #ccc; /* inactive dots */
+  opacity: 1;
+  transition: all 0.45s;
+}
+
+:global(.swiper-pagination-bullet-active) {
+  background: linear-gradient(90deg,#293579,#942681); /* active dot */
+  padding: 0px 15px;
+  border-radius: 10px;
+}
