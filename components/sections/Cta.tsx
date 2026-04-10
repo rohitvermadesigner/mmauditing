@@ -5,7 +5,7 @@ import Link from "next/link";
 function Cta() {
   return (
     <div className="max-w-7xl mx-auto rounded-3xl overflow-hidden text-white mb-12">
-      <div className={` ${style.ctaSection} py-20 md:px-96`}>
+      <div className={` ${style.ctaSection} py-20 md:px-96 bg-[#293579]`}>
         <h2 className="text-3xl md:text-4xl font-bold">
           Let’s get your audit sorted.
         </h2>
