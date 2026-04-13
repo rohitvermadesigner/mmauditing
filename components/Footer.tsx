@@ -46,15 +46,15 @@ const locationsList = [
 const Footer = () => {
   return (
     <section className={styles.footerSection}>
-      <div className="max-w-7xl mx-auto">
-        <div className="grid grid-cols-4">
-          <div className="w-56">
+      <div className="max-w-7xl mx-auto px-4 md:px-0">
+        <div className="grid grid-row md:grid-cols-4 gap-4 md:gap-0">
+          <div className="md:w-56">
             <Image
               src="/images/footer-logo.svg"
               width={250}
               height={0}
               alt=""
-              className="w-full"
+              className="px-8 md:px-0 w-full"
             />
             <ul className="flex gap-4 mt-6 items-center justify-center">
               <li>
@@ -159,7 +159,7 @@ const Footer = () => {
 
         <div className="bg-[rgba(255,255,255,0.2)] h-[1px] my-8"></div>
 
-        <div className="grid grid-cols-3 gap-8">
+        <div className="grid grid-row md:grid-cols-3 gap-8">
           {locationsList?.map((item, index) => {
             return (
               <div key={index}>

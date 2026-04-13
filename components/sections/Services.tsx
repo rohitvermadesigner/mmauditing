@@ -45,18 +45,15 @@ const Services = () => {
                     OUR SERVICES
                   </span>
                 </span>
-                <h2 className="text-3xl md:text-5xl font-bold mt-5 leading-14">
+                <h2 className="text-2xl md:text-5xl font-bold mt-5 md:leading-14">
                   Comprehensive Audit Solutions
                 </h2>
-                <p className="mt-6 pr-20">
-                  We are licensed by the Department of Economic Development
-                  (DED) and the Ministry of Economy to provide impartial audit
-                  opinions on corporate financial statements. Our comprehensive
-                  audit services assess your financial position, income, equity
-                  changes, cash flows, and accounting policies in line with IAS
-                  and IFRS. Additionally, we offer review reports, sales
-                  reports, and other tailored procedure assignments to meet your
-                  specific needs and drive your business forward.
+                <p className="mt-6 pr-0 md:pr-20">
+                  To succeed in the evolving UAE marketplace, businesses need audits that bring clarity
+to financial performance. Our financial audit services in Dubai and across the UAE are
+rigorous, responsive, and tailored to their size, industry, and goals. Our professional
+auditors identify risks, uncover opportunities, and deliver practical, innovative insights,
+empowering smarter decisions and stronger, more transparent outcomes.
                 </p>
               </div>
               <div className="service-img">
@@ -71,13 +68,13 @@ const Services = () => {
             </div>
           </div>
           <div>
-            <div className="grid md:grid-cols-2 gap-12">
+            <div className="grid md:grid-cols-2 gap-6 md:gap-12">
               {serviceList?.map((item, index) => {
                 return (
                   <Link
                     key={index}
                     href="#"
-                    className={`bg-white rounded-xl block p-4 p-8 pb-12 relative ${index === 1 || index === 3 ? 'translate-y-12' : ''} `}
+                    className={`bg-white rounded-xl block p-4 p-8 pb-12 relative ${index === 1 || index === 3 ? 'md:translate-y-12' : ''} `}
                   >
                     <div className="flex items-center gap-0 mb-4">
                       <h5 className="bg-gradient-to-r from-[#942681] to-[#293579] bg-clip-text text-transparent text-[1.3rem] font-bold uppercase">

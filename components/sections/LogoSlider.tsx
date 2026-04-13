@@ -24,7 +24,7 @@ const LogoSlider = () => {
   return (
     <section className="bg-white">
       <div className="relative max-w-7xl mx-auto py-8 md:py-8 px-4 md:px-0 text-center">
-        <h2 className="text-3xl md:text-4xl font-semibold mt-4 uppercase">
+        <h2 className="text-2xl md:text-4xl font-semibold mt-4 uppercase">
           <span className="bg-gradient-to-r from-[#942681] to-[#293579] bg-clip-text text-transparent">
             Approved auditors 
           </span> &nbsp;
@@ -33,13 +33,21 @@ const LogoSlider = () => {
 
         <Swiper
           modules={[Navigation, Autoplay]}
-          // navigation
-          // pagination={{ clickable: true }}
-          autoplay={{ delay: 3000 }}
           spaceBetween={30}
-          slidesPerView={7}
+          slidesPerView={2}
           autoHeight={false}
           className="mt-8"
+          autoplay={{ delay: 3000, disableOnInteraction: false }}
+            breakpoints={{
+              768: {
+                slidesPerView: 4,
+                autoplay: { delay: 3000, disableOnInteraction: true },
+              },
+              1024: {
+                slidesPerView: 7,
+                autoplay: { delay: 3000, disableOnInteraction: true },
+              },
+            }}
         >
           {logos?.map((item, index) => {
             return (

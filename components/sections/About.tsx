@@ -7,12 +7,12 @@ function About() {
   return (
     <section className={` ${style.aboutSection} relative overflow-hidden`}>
       <div className="max-w-7xl mx-auto py-8 md:py-24 px-4 md:px-0">
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-4 md:gap-8 items-center">
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-4 md:gap-8 items-center pb-36 md:pb-0">
           <div>
             <span className="uppercase text-1xl md:text-2xl font-semibold bg-gradient-to-r from-[#942681] to-[#293579] bg-clip-text text-transparent">
               ABOUT US
             </span>
-            <h2 className="text-3xl md:text-4xl font-semibold mt-4 uppercase">
+            <h2 className="text-2xl md:text-4xl font-semibold mt-4 uppercase">
               Delivering Audit Precision
               <div className="bg-gradient-to-r from-[#942681] to-[#293579] bg-clip-text text-transparent">
                 Through Focused Guidance
@@ -42,7 +42,7 @@ function About() {
             </div>
 
             <span className="absolute top-8 right-[30rem] h-32 w-32 border-4 border-[#DAB2FF4D] rounded-full"></span>
-            <span className="absolute top-12 right-12 h-20 w-20 bg-[#F5E6FA] rounded-full"></span>
+            <span className="absolute top-12 right-12 h-20 w-20 bg-[#F5E6FA] rounded-full hidden md:block"></span>
             <span className="absolute -bottom-8 left-[30rem] h-32 w-32 border-4 border-[#DAB2FF4D] rounded-full"></span>
             <Image
               src="/images/about.webp"

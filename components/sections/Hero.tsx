@@ -5,7 +5,7 @@ import { ArrowRight, CheckCircle } from "lucide-react";
 function Hero() {
   return (
     <section className={style.heroSection}>
-      <div className="relative max-w-7xl mx-auto py-8 md:py-32 pt-12 md:pt-48 md:pb-56">
+      <div className="relative max-w-7xl mx-auto py-8 md:py-32 pt-12 md:pt-48 md:pb-56 px-2 md:px-0">
         <div className="grid grid-cols-1 md:grid-cols-[70%_30%] gap-4 md:gap-8 items-center">
           <div className="text-white">
             <h1
@@ -21,7 +21,7 @@ function Hero() {
                 stakeholders & regulators.
               </p>
 
-              <ul className="flex gap-4">
+              <ul className="flex gap-4 flex-col md:flex-row">
                 <li className="flex gap-2 bg-[#00000066] rounded-full py-2 px-4 border-[1px] border-[#FFFFFF33] text-[0.875rem] font-medium"><CheckCircle className="text-[#05DF72]" /> ISO 9001 Certified Excellence</li>
                 <li className="flex gap-2 bg-[#00000066] rounded-full py-2 px-4 border-[1px] border-[#FFFFFF33] text-[0.875rem] font-medium"><CheckCircle className="text-[#05DF72]" /> Expert Financial Auditors</li>
                 <li className="flex gap-2 bg-[#00000066] rounded-full py-2 px-4 border-[1px] border-[#FFFFFF33] text-[0.875rem] font-medium"><CheckCircle className="text-[#05DF72]" /> Risk Management Solutions</li>
