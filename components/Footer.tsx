@@ -50,7 +50,7 @@ const Footer = () => {
         <div className="grid grid-row md:grid-cols-4 gap-4 md:gap-0">
           <div className="md:w-56">
             <Image
-              src="/images/footer-logo.svg"
+              src="./images/footer-logo.svg"
               width={250}
               height={0}
               alt=""
@@ -63,7 +63,7 @@ const Footer = () => {
                   className="bg-white rounded-full w-10 h-10 flex items-center justify-center transition hover:-translate-y-1 duration-200"
                 >
                   <Image
-                    src="/images/linkedin.svg"
+                    src="./images/linkedin.svg"
                     width={20}
                     height={0}
                     alt=""
@@ -76,7 +76,7 @@ const Footer = () => {
                   className="bg-white rounded-full w-10 h-10 flex items-center justify-center transition hover:-translate-y-1 duration-200"
                 >
                   <Image
-                    src="/images/facebook.svg"
+                    src="./images/facebook.svg"
                     width={20}
                     height={0}
                     alt=""
@@ -89,7 +89,7 @@ const Footer = () => {
                   className="bg-white rounded-full w-10 h-10 flex items-center justify-center transition hover:-translate-y-1 duration-200"
                 >
                   <Image
-                    src="/images/instagram.svg"
+                    src="./images/instagram.svg"
                     width={20}
                     height={0}
                     alt=""

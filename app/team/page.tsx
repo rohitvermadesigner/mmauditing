@@ -17,7 +17,6 @@ async function getTeams() {
 
 export default async function Team() {
   const { data: teams } = await getTeams();
-  console.log("teams365", teams);
   return (
     <div>
       <InnerHeader
