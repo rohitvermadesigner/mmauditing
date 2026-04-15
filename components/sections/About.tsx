@@ -5,11 +5,11 @@ import Link from "next/link";
 
 function About() {
   return (
-    <section className={` ${style.aboutSection} relative overflow-hidden`}>
+    <section className={`relative overflow-hidden`}>
       <div className="max-w-7xl mx-auto py-8 md:py-24 px-4 md:px-0">
         <div className="grid grid-cols-1 md:grid-cols-2 gap-4 md:gap-8 items-center pb-36 md:pb-0">
           <div>
-            <span className="uppercase text-1xl md:text-2xl font-semibold bg-gradient-to-r from-[#942681] to-[#293579] bg-clip-text text-transparent">
+            <span className="uppercase font-semibold bg-gradient-to-r from-[#942681] to-[#293579] bg-clip-text text-transparent">
               ABOUT US
             </span>
             <h2 className="text-2xl md:text-4xl font-semibold mt-4 uppercase">
@@ -41,9 +41,11 @@ function About() {
               </Link>
             </div>
 
-            <span className="absolute top-8 right-[30rem] h-32 w-32 border-4 border-[#DAB2FF4D] rounded-full"></span>
-            <span className="absolute top-12 right-12 h-20 w-20 bg-[#F5E6FA] rounded-full hidden md:block"></span>
-            <span className="absolute -bottom-8 left-[30rem] h-32 w-32 border-4 border-[#DAB2FF4D] rounded-full"></span>
+            <span className="absolute top-8 right-[30rem] h-32 w-32 border-4 border-[#DAB2FF4D] rounded-full animate-ping [animation-duration:4s]"></span>
+            <span className="absolute top-8 right-[30rem] h-32 w-32 border-4 border-[#DAB2FF4D] rounded-full "></span>
+
+            <span className={`absolute -top-3 right-44 h-20 w-20 bg-[#F5E6FA] rounded-full hidden md:block ${style.aboutCirlceMove}`}></span>
+            <span className="absolute -bottom-8 left-[30rem] h-32 w-32 border-4 border-[#DAB2FF4D] rounded-full animate-bounce [animation-duration:4s]"></span>
             <Image
               src="/images/about.webp"
               alt="About Us Image"

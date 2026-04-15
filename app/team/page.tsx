@@ -62,14 +62,14 @@ export default async function Team() {
           {teams?.slice(1).map((item, index) => {
             return (
               <div key={index} className="mb-4 relative">
-                <Link href="#" className="rounded-[0.9rem] inline-block h-96">
-                  <Image src={item.img} width={300} height={300} alt="" />
+                <Link href="#" className="rounded-[0.9rem] inline-block h-96 group overflow-hidden">
+                  <Image src={item.img} width={300} height={300} alt="" className="transition group-hover:scale-110 duration-300" />
                   <Image
                     src="/images/team-shape.webp"
                     width={300}
                     height={0}
                     alt=""
-                    className="absolute -bottom-[8px]"
+                    className="absolute bottom-[6px]"
                   />
                   <div className="absolute bottom-4 left-4 text-white text-left">
                     <h3 className="text-base font-bold mt-4 uppercase">

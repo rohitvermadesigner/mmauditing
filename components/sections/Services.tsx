@@ -74,7 +74,7 @@ empowering smarter decisions and stronger, more transparent outcomes.
                   <Link
                     key={index}
                     href="#"
-                    className={`bg-white rounded-xl block p-4 p-8 pb-12 relative ${index === 1 || index === 3 ? 'md:translate-y-12' : ''} `}
+                    className={`bg-white rounded-xl block p-4 p-8 pb-12 relative transition hover:-translate-x-2 duration-300 ${index === 1 || index === 3 ? 'md:translate-y-12' : ''} `}
                   >
                     <div className="flex items-center gap-0 mb-4">
                       <h5 className="bg-gradient-to-r from-[#942681] to-[#293579] bg-clip-text text-transparent text-[1.3rem] font-bold uppercase">
