@@ -12,7 +12,7 @@ const About = () => {
         backgroundImage="/images/header-about.webp"
       />
 
-      <div className="max-w-7xl mx-auto">
+      <div className="max-w-7xl mx-auto px-4 md:px-0">
         <div className="py-8">
           <h2 className="text-2xl md:text-4xl font-semibold mt-4 uppercase">
             Trusted Audit &nbsp;
@@ -21,7 +21,7 @@ const About = () => {
             </span>
           </h2>
 
-          <div className="grid grid-cols-[0.9fr_1.1fr] gap-12 mt-4">
+          <div className="grid md:grid-cols-[0.9fr_1.1fr] gap-12 mt-4">
             <div>
               <p className="text-[#4A5565] text-justify leading-7">
                 We offer tailored solutions to meet your needs and objectives,
@@ -66,10 +66,9 @@ const About = () => {
           </p>
         </div>
 
-        <div className="py-8"></div>
       </div>
 
-      <div className="bg-[linear-gradient(135deg,#59168B,#942681,#293579)] text-white py-16">
+      <div className="bg-[linear-gradient(135deg,#59168B,#942681,#293579)] text-white py-16 px-4 md:px-0">
         <div className="max-w-7xl mx-auto">
           <div className="text-center md:px-64">
             <h2 className="text-2xl md:text-4xl font-semibold uppercase">
@@ -85,8 +84,8 @@ const About = () => {
             </p>
           </div>
 
-          <div className="grid grid-cols-6 gap-8 mt-8">
-            <div className="col-span-2">
+          <div className="grid md:grid-cols-6 gap-8 mt-8">
+            <div className="col-span-3 md:col-span-2">
               <div className="bg-white rounded-xl p-8 h-full">
                 <div className="flex items-center justify-between">
                   <h4 className="text-[#101828] font-bold text-[1.2rem]">
@@ -108,7 +107,7 @@ const About = () => {
                 </p>
               </div>
             </div>
-            <div className="col-span-2">
+            <div className="col-span-3 md:col-span-2">
               <div className="bg-white rounded-xl p-8 h-full">
                 <div className="flex items-center justify-between">
                   <h4 className="text-[#101828] font-bold text-[1.2rem]">
@@ -129,7 +128,7 @@ const About = () => {
                 </p>
               </div>
             </div>
-            <div className="col-span-2">
+            <div className="col-span-3 md:col-span-2">
               <div className="bg-white rounded-xl p-8 h-full">
                 <div className="flex items-center justify-between">
                   <h4 className="text-[#101828] font-bold text-[1.2rem]">
