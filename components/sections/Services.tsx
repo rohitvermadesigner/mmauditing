@@ -9,25 +9,25 @@ const serviceList = [
   {
     title: "External Audit",
     description:
-      "Our auditors conduct an independent review of financial statements, testing internal controls and verifying transactions to ensure accurate, compliant, and reliable reporting.",
+      "Our external auditors independently examine your financial statements and records. The resulting report gives leadership a clear, decision-ready view of financial position and performance.",
     icon: "/images/s1.png",
   },
   {
     title: "COMPLIANCE AUDIT",
     description:
-      "We assess internal controls, review procedures, and test compliance with UAE regulatory requirements to minimize risk and ensure reliable reporting.",
+      "Compliance with current UAE regulations is essential for smooth business operations. We identify and address compliance gaps early through a structured audit process, helping ensure ongoing regulatory adherence.",
       icon: "/images/s3.png",
     },
     {
       title: "STOCK AUDITC",
       description:
-      "Our stock audit services focus on verifying inventory, reconciling records, and uncovering discrepancies to improve accuracy and enhance control over stock management.",
+      "Inventory discrepancies can impact margins and create reporting problems. Our stock audits verify physical inventory and investigate variances through detailed reconciliation processes. Our clear recommendations align stock management with best practices.",
       icon: "/images/s2.png",
   },
   {
     title: "INTERNAL AUDIT",
     description:
-      "Our team of internal audit consultants evaluates processes, controls, and operations to identify gaps, strengthen governance, and improve risk management across your business.",
+      "As strong governance is built on clear operational insights, we assess your processes, controls, and operations to identify risks and governance gaps. Our internal audits go beyond a checklist, delivering actionable findings that improve business performance.",
     icon: "/images/s4.png",
   },
 ];
@@ -37,7 +37,7 @@ const Services = () => {
     <section className={` ${style.servicesSection} text-white`}>
       <div className="max-w-7xl mx-auto py-8 md:py-16 md:pb-28 px-4 md:px-0">
         <div className="grid md:grid-cols-2 gap-8">
-          <div className="pr-12">
+          <div className="md:pr-12">
             <div className="services-head mx-auto pb-5">
               <div className="service-content">
                 <span className="bg-[#FFFFFF] rounded-full px-4 py-2">
