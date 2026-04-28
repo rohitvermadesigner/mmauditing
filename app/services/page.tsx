@@ -5,62 +5,62 @@ import Link from "next/link";
 const serviceList = [
   {
     name: "External/Statutory Audit",
-    des: "We carry out an independent audit of financial statements to confirm accuracy and ensure compliance with all statutory requirements. This gives stakeholders confidence in the reported figures.",
+    des: "Our external auditors independently examine your financial statements and records. The resulting report gives leadership a clear, decision-ready view of financial position and performance.",
     url: "external-statutory-audit",
   },
   {
     name: "Internal Audit",
-    des: "Our team examines how a company’s controls and processes actually function in practice, helping businesses identify gaps and strengthen control frameworks before they escalate.",
+    des: "As strong governance is built on clear operational insights, we assess your processes, controls, and operations to identify risks and governance gaps. Our internal audits go beyond a checklist, delivering actionable findings that improve business performance.",
     url: "internal-audit",
   },
   {
     name: "Stock Audit",
-    des: "Our stock audit services include physical verification of inventory alongside record checks to identify discrepancies, reduce risk, and ensure stock reporting remains reliable.",
+    des: "Inventory discrepancies can impact margins and create reporting problems. Our stock audits verify physical inventory and investigate variances through detailed reconciliation processes. Our clear recommendations align stock management with best practices.",
     url: "stock-audit",
   },
   {
     name: "Review Management Report",
-    des: "We prepare a focused report that reflects on management performance, and highlight key matters that may not be captured in standard financial reporting.",
+    des: "Our team assesses key performance areas to identify priorities, risks, and improvement opportunities. We prepare a comprehensive management report that supports effective decision-making and strengthens long-term organisational stability. ",
     url: "review-management-report",
   },
   {
     name: "Cost Audit",
-    des: "We review cost structures and expenses in detail to ensure they are recorded correctly and aligned with cost accounting principles.",
+    des: "To enhance business profitability, costs must be justified and effectively managed. Our cost audits examine allocations across materials, labour, and overheads to identify inefficiencies and improve cost control.",
     url: "cost-audit",
   },
   {
     name: "Interim Audit Report",
-    des: "We review financials during the year to maintain continuity in the audit process and minimise surprises at the final stage.",
+    des: "Mid-cycle reviews help identify financial issues before they become year-end problems. By assessing records, transactions, and internal controls during the reporting period, we provide early visibility into risk areas and support timely corrective actions.",
     url: "interim-audit-report",
   },
   {
     name: "Consolidation of Financial Statements",
-    des: "Our audit consultants combine financial data from multiple entities into a single, structured view of the group’s overall financial position.",
+    des: "Consolidating financials across multiple entities can become complicated, so we align policies, handle intercompany eliminations, and ensure consistency in reporting. The unified financial statement reflects the group’s true financial position. ",
     url: "consolidation-of-financial-statements",
   },
   {
     name: "Forensic Audit",
-    des: "We analyze financial records in detail to identify irregularities, establish facts, and support legal or dispute-related matters.",
+    des: "When there are signs of fraud or financial irregularity, a standard audit isn't enough. Our forensic audit team investigates transactions, assesses AML compliance, and produces reports that withstand any scrutiny.",
     url: "forensic-audit",
   },
   {
     name: "Special Purpose Audit Report",
-    des: "We conduct focused audit procedures around specific requirements, ensuring the relevant areas are properly reviewed and addressed.",
+    des: "When a specific financial area requires independent verification, we conduct a focused, ISA-compliant audit scoped precisely to the requirement. This gives stakeholders the targeted assurance they need. ",
     url: "special-purpose-audit-report",
   },
   {
     name: "Compliance Audit",
-    des: "Our registered auditors complete a structured check of whether operations align with applicable regulations, internal policies, and governance standards.",
+    des: "Compliance with current UAE regulations is essential for smooth business operations. We identify and address compliance gaps early through a structured audit process, helping ensure ongoing regulatory adherence.",
     url: "compliance-audit",
   },
   {
     name: "Sales/Revenue Audit",
-    des: "We test the revenue cycle end-to-end to ensure transactions are properly captured, recorded, and supported.",
+    des: "We review the full revenue cycle, from transactions and invoices to VAT compliance and sales controls, to detect discrepancies. Our findings give management a clear view of revenue integrity and build stakeholder confidence in reported revenue.",
     url: "sales-revenue-audit",
   },
   {
     name: "Liquidation Report",
-    des: "We prepare a comprehensive liquidation report outlining assets, liabilities, and financial position, supporting regulatory requirements for trade license cancellation.",
+    des: "Closing a business requires meticulous attention at every stage of the liquidation process. We verify liabilities, coordinate settlements, and manage asset distribution with full oversight, delivering a compliant liquidation report that protects stakeholders' interests",
     url: "liquidation-report",
   },
 ];
