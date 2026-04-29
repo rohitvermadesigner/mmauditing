@@ -21,7 +21,7 @@ export default async function Team() {
     <div>
       <InnerHeader
         title="Meet Our Experts"
-        subtitle="At Mansoor Mulla Auditing of Accounts, our audit services fully comply with International Standards on Auditing (ISAs) and International Financial Reporting Standards (IFRS)."
+        subtitle="Backed by decades of combined experience, our certified professionals conduct rigorous audits that uncover meaningful insights, strengthen financial integrity, and support confident business decisions."
         backgroundImage="/images/header-team.webp"
       />
 

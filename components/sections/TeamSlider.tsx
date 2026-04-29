@@ -14,7 +14,7 @@ export default function TeamSlider({ teams }) {
           <span className="uppercase bg-gradient-to-r from-[#942681] to-[#293579] bg-clip-text text-transparent font-semibold">
             Meet Our Experts
           </span>
-          <h2 className="text-2xl md:text-4xl font-bold mt-2 md:leading-14">
+          <h2 className="text-2xl md:text-4xl font-semibold mt-4 uppercase">
             Leading with Purpose and Precision
           </h2>
           <p className="text-[#4A5565] px-4 font-medium mt-2 md:px-40">

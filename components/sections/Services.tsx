@@ -15,19 +15,19 @@ const serviceList = [
   {
     title: "COMPLIANCE AUDIT",
     description:
-      "Compliance with current UAE regulations is essential for smooth business operations. We identify and address compliance gaps early through a structured audit process, helping ensure ongoing regulatory adherence.",
-      icon: "/images/s3.png",
-    },
-    {
-      title: "STOCK AUDITC",
-      description:
-      "Inventory discrepancies can impact margins and create reporting problems. Our stock audits verify physical inventory and investigate variances through detailed reconciliation processes. Our clear recommendations align stock management with best practices.",
-      icon: "/images/s2.png",
+      "We identify and address compliance gaps early through a structured audit process, ensuring ongoin regulatory adherence.",
+    icon: "/images/s3.png",
+  },
+  {
+    title: "STOCK AUDIT",
+    description:
+      "Inventory discrepancies impact margins and create reporting problems. Our stock audits verify physical inventory and investigate variances through detailed reconciliation processes. Our clear recommendations align stock management with best practices.",
+    icon: "/images/s2.png",
   },
   {
     title: "INTERNAL AUDIT",
     description:
-      "As strong governance is built on clear operational insights, we assess your processes, controls, and operations to identify risks and governance gaps. Our internal audits go beyond a checklist, delivering actionable findings that improve business performance.",
+      "Strong governance begins with clear operational insights. That’s why we systematically assess your processes, controls, and operations to identify risks and governance gaps. Our internal audits go beyond a checklist, delivering actionable findings that improve business performance.",
     icon: "/images/s4.png",
   },
 ];
@@ -45,25 +45,63 @@ const Services = () => {
                     OUR SERVICES
                   </span>
                 </span>
-                <h2 className="text-2xl md:text-5xl font-bold mt-5 md:leading-14">
-                  Comprehensive Audit Solutions
+                <h2 className="text-2xl md:text-4xl font-semibold mt-4 uppercase">
+                  Our Comprehensive Audit Solutions
                 </h2>
                 <p className="mt-6 pr-0 md:pr-20">
-                  To succeed in the evolving UAE marketplace, businesses need audits that bring clarity
-to financial performance. Our financial audit services in Dubai and across the UAE are
-rigorous, responsive, and tailored to their size, industry, and goals. Our professional
-auditors identify risks, uncover opportunities, and deliver practical, innovative insights,
-empowering smarter decisions and stronger, more transparent outcomes.
+                  To succeed in the evolving UAE economy, businesses need audits that bring clarity to financial performance. Our professional auditors identify risks, uncover opportunities, and deliver practical, data-driven insights, empowering smarter decisions and stronger, more transparent outcomes.
                 </p>
               </div>
-              <div className="service-img">
-                <Image
-                  src="/images/service-icon-img.png"
-                  alt="service icon"
-                  width={500}
-                  height={500}
-                  className="img-fluid"
-                />
+              <div className="service-img relative md:mt-32 md:block hidden">
+                  <Image
+                    src="/images/service-icon/1.png"
+                    alt="service icon"
+                    width={30}
+                    height={30}
+                    className={`${style.serviceIcon1} img-fluid absolute top-10 left-4`}
+                  />
+                  <Image
+                    src="/images/service-icon/2.png"
+                    alt="service icon"
+                    width={42}
+                    height={42}
+                    className={`${style.serviceIcon2} img-fluid absolute top-24 left-16`}
+                  />
+                  <Image
+                    src="/images/service-icon/3.png"
+                    alt="service icon"
+                    width={10}
+                    height={10}
+                    className={`${style.serviceIcon3} img-fluid absolute top-20 left-28`}
+                  />
+                  <Image
+                    src="/images/service-icon/4.png"
+                    alt="service icon"
+                    width={60}
+                    height={60}
+                    className={`${style.serviceIcon4} img-fluid absolute top-12 left-42`}
+                  />
+                  <Image
+                    src="/images/service-icon/5.png"
+                    alt="service icon"
+                    width={30}
+                    height={30}
+                    className={`${style.serviceIcon5} img-fluid absolute top-0 left-56`}
+                  />
+                  <Image
+                    src="/images/service-icon/6.png"
+                    alt="service icon"
+                    width={30}
+                    height={30}
+                    className={`${style.serviceIcon6} img-fluid absolute top-12 left-84`}
+                  />
+                  <Image
+                    src="/images/service-icon/7.png"
+                    alt="service icon"
+                    width={24}
+                    height={24}
+                    className={`${style.serviceIcon7} img-fluid absolute top-12 right-32`}
+                  />               
               </div>
             </div>
           </div>
@@ -74,7 +112,7 @@ empowering smarter decisions and stronger, more transparent outcomes.
                   <Link
                     key={index}
                     href="#"
-                    className={`bg-white rounded-xl block p-4 p-8 pb-12 relative transition hover:-translate-x-2 duration-300 ${index === 1 || index === 3 ? 'md:translate-y-12' : ''} `}
+                    className={`bg-white rounded-xl block p-4 p-8 pb-12 relative transition hover:-translate-x-2 duration-300 ${index === 1 || index === 3 ? "md:translate-y-12" : ""} `}
                   >
                     <div className="flex items-center gap-0 mb-4">
                       <h5 className="bg-gradient-to-r from-[#942681] to-[#293579] bg-clip-text text-transparent text-[1.3rem] font-bold uppercase">
@@ -90,11 +128,12 @@ empowering smarter decisions and stronger, more transparent outcomes.
                         />
                       </div>
                     </div>
-                    <p className="text-[#293579] text-sm">
-                      {item.description}
-                    </p>
+                    <p className="text-[#293579] text-sm">{item.description}</p>
                     <span className="bg-[#2935794D] rounded-full py-[2px] px-4 absolute bottom-4 right-4">
-                      <span className="bg-gradient-to-r from-[#942681] to-[#293579] bg-clip-text text-transparent text-sm"> Read More</span>
+                      <span className="bg-gradient-to-r from-[#942681] to-[#293579] bg-clip-text text-transparent text-sm">
+                        {" "}
+                        Read More
+                      </span>
                     </span>
                   </Link>
                 );

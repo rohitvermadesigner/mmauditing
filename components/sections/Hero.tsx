@@ -9,22 +9,19 @@ function Hero() {
         <div className="grid grid-cols-1 md:grid-cols-[70%_30%] gap-4 md:gap-8 items-center">
           <div className="text-white">
             <h1
-                className="relative text-3xl md:text-7xl mb-0 md:mb-4 leading-tight drop-shadow-[2px_4px_10px_rgba(0,0,0,0.5)] font-bold [text-shadow:0_4px_10px_rgba(0,0,0,0.5)]"
+                className="relative text-3xl md:text-7xl mb-0 md:mb-4 leading-tight drop-shadow-[2px_4px_10px_rgba(0,0,0,0.5)] font-bold [text-shadow:0_4px_10px_rgba(0,0,0,0.5)] uppercase"
               >
-                INNOVATE INSIGHTS. TIMELESS TRUST.
+                Innovative Insights, Timeless Trust
               </h1>
 
             <p className="mb-4 md:mb-6 text-1xl md:text-2xl [text-shadow:0_4px_10px_rgba(0,0,0,0.5)] font-semibold">
-                Delivering audit clarity with innovative
-                <span className="desktop-clearfix"></span> insights, fostering
-                lasting trust among <span className="desktop-clearfix"></span>
-                stakeholders & regulators.
+              Delivering audit clarity through a strategic approach that builds<span className="desktop-clearfix"></span> long-term trust with stakeholders and regulators.
               </p>
 
               <ul className="flex gap-4 flex-col md:flex-row">
-                <li className="flex gap-2 bg-[#00000066] rounded-full py-2 px-4 border-[1px] border-[#FFFFFF33] text-[0.875rem] font-medium"><CheckCircle className="text-[#05DF72]" /> ISO 9001 Certified Excellence</li>
-                <li className="flex gap-2 bg-[#00000066] rounded-full py-2 px-4 border-[1px] border-[#FFFFFF33] text-[0.875rem] font-medium"><CheckCircle className="text-[#05DF72]" /> Expert Financial Auditors</li>
-                <li className="flex gap-2 bg-[#00000066] rounded-full py-2 px-4 border-[1px] border-[#FFFFFF33] text-[0.875rem] font-medium"><CheckCircle className="text-[#05DF72]" /> Risk Management Solutions</li>
+                <li className="flex gap-2 bg-[#00000066] rounded-full py-2 px-4 border-[1px] border-[#FFFFFF33] text-[0.875rem] font-medium"><CheckCircle className="text-[#05DF72]" /> ISO 9001:2015 certified </li>
+                <li className="flex gap-2 bg-[#00000066] rounded-full py-2 px-4 border-[1px] border-[#FFFFFF33] text-[0.875rem] font-medium"><CheckCircle className="text-[#05DF72]" /> UAE Freezone-approved auditors </li>
+                <li className="flex gap-2 bg-[#00000066] rounded-full py-2 px-4 border-[1px] border-[#FFFFFF33] text-[0.875rem] font-medium"><CheckCircle className="text-[#05DF72]" /> IFRS, IAS & ISA compliant </li>
               </ul>
 
             <div className="flex space-x-2 md:space-x-4 mt-8">

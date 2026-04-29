@@ -18,18 +18,14 @@ function About() {
                 Through Focused Guidance
               </div>
             </h2>
-            <p className="mt-5">
-              Mansoor Mulla Auditing of Accounts (MM Auditing) is a UAE-based
-              audit firm, registered with the Ministry of Economy and the
-              Department of Economic Development. We deliver comprehensive audit
-              services across the UAE mainland and free zones, fully compliant
-              with International Standards on Auditing (ISAs) and International
-              Financial Reporting Standards (IFRS). Our approach blends rigor
-              with adaptability, tailoring audits to each client’s business
-              size, industry, and operational phase. By meticulously examining
-              financial records, validating transactions, and providing
-              actionable insights, we help businesses enhance transparency,
-              maintain compliance, and strengthen operational efficiency.
+            <p className="mt-5 mb-3">
+              Mansoor Mulla Auditing of Accounts (MM Auditing) is a leading UAE-based audit firm, registered with the Ministry of Economy and the Department of Economic Development. We deliver comprehensive audit services across the UAE mainland and freezones, fully compliant with International Standards on Auditing (ISAs) and International Financial Reporting Standards (IFRS). 
+            </p>
+            <p className="mb-3">
+              Our approach is both rigorous and flexible, tailoring audits to each client&apos;s business size, industry, and operational phase. By meticulously examining financial records, validating transactions, and providing practical recommendations, we help businesses enhance transparency, maintain compliance, and strengthen operational efficiency.
+            </p>
+            <p>
+              With accreditations across DMCC, JAFZA, DIFC, DAFZA, and other freezones, MM Auditing empowers clients to stay confident throughout the audit process, offering <b>innovative insights and timeless trust. </b>
             </p>
 
             <div className="block mt-8">

@@ -5,8 +5,8 @@ import Link from "next/link";
 function Cta() {
   return (
     <div className="max-w-7xl mx-auto  overflow-hidden text-white mb-12 px-4 md:px-0">
-      <div className={` ${style.ctaSection} py-20 px-4 md:px-96 bg-[#293579] rounded-3xl`}>
-        <h2 className="text-3xl md:text-4xl font-bold">
+      <div className={` ${style.ctaSection} py-20 px-4 md:px-84 bg-[#293579] rounded-3xl`}>
+        <h2 className="text-2xl md:text-4xl font-semibold mt-4 uppercase">
           Let’s get your audit sorted.
         </h2>
         <p>

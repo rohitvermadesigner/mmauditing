@@ -20,7 +20,7 @@ const serviceList = [
   },
   {
     name: "Review Management Report",
-    des: "Our team assesses key performance areas to identify priorities, risks, and improvement opportunities. We prepare a comprehensive management report that supports effective decision-making and strengthens long-term organisational stability. ",
+    des: "Our team assesses key performance areas to identify priorities, risks, and improvement opportunities. We prepare a comprehensive management report that supports effective decision-making and strengthens long-term organisational stability.",
     url: "review-management-report",
   },
   {
@@ -35,7 +35,7 @@ const serviceList = [
   },
   {
     name: "Consolidation of Financial Statements",
-    des: "Consolidating financials across multiple entities can become complicated, so we align policies, handle intercompany eliminations, and ensure consistency in reporting. The unified financial statement reflects the group’s true financial position. ",
+    des: "Consolidating financials across multiple entities can become complicated, so we align policies, handle intercompany eliminations, and ensure consistency in reporting. The unified financial statement reflects the group’s true financial position.",
     url: "consolidation-of-financial-statements",
   },
   {
@@ -45,7 +45,7 @@ const serviceList = [
   },
   {
     name: "Special Purpose Audit Report",
-    des: "When a specific financial area requires independent verification, we conduct a focused, ISA-compliant audit scoped precisely to the requirement. This gives stakeholders the targeted assurance they need. ",
+    des: "When a specific financial area requires independent verification, we conduct a focused, ISA-compliant audit scoped precisely to the requirement. This gives stakeholders the targeted assurance they need.",
     url: "special-purpose-audit-report",
   },
   {
@@ -60,7 +60,7 @@ const serviceList = [
   },
   {
     name: "Liquidation Report",
-    des: "Closing a business requires meticulous attention at every stage of the liquidation process. We verify liabilities, coordinate settlements, and manage asset distribution with full oversight, delivering a compliant liquidation report that protects stakeholders' interests",
+    des: "Closing a business requires meticulous attention at every stage of the liquidation process. We verify liabilities, coordinate settlements, and manage asset distribution with full oversight, delivering a compliant liquidation report that protects stakeholders' interests.",
     url: "liquidation-report",
   },
 ];
@@ -69,30 +69,29 @@ const Services = () => {
   return (
     <div>
       <InnerHeader
-        title="SERVICES"
+        title="Our Services"
         subtitle="We are certified by the Ministry of Economy, licensed by the Department of Economic
-Development (DED), and approved by major free zones in the UAE. Our auditing services in
- the UAE ensure financial reporting meets the expectations of regulators, banks, and key
-stakeholders."
+Development, and approved by major freezones in the UAE. Our auditing services in
+the UAE ensure financial reporting meets the expectations of regulators, banking
+authorities, and key stakeholders."
         backgroundImage="/images/header-services.webp"
       />
 
       <div className="max-w-7xl mx-auto pt-8">
         <div className="text-center">
           <span className="uppercase bg-gradient-to-r from-[#942681] to-[#293579] bg-clip-text text-transparent font-semibold">
-            Our Services
+            What we offer
           </span>
           <h2 className="text-2xl md:text-4xl font-bold mt-4 uppercase">
-            SERVICE &nbsp;
+            Audits with Absolute <br />
             <span className="bg-gradient-to-r from-[#942681] to-[#293579] bg-clip-text text-transparent">
-              WE PROVIDE
+              Precision &amp; Accountability
             </span>
           </h2>
           <p className="text-[#4A5565] md:px-48 mt-4">
-            Our UAE-approved auditors provide independent opinions on the audit
-            of financial statements, bringing clarity and strengthening
-            compliance. Beyond this, we help identify and manage risks to ensure
-            operations stay aligned with expected standards.
+           Our UAE-approved auditors provide independent opinions on the audit of financial
+statements, bringing clarity and strengthening compliance. Beyond this, we identify and
+manage risks to ensure operations stay aligned with regulatory standards.
           </p>
         </div>
 
@@ -105,7 +104,7 @@ stakeholders."
                   <p className="mt-2 text-[#212529]">
                     {item.des}
                   </p>
-                  <Link href={item.url} className="absolute bottom-4 text-[#1A98D5] text-sm">About More &gt; </Link>
+                  {/* <Link href={item.url} className="absolute bottom-4 text-[#1A98D5] text-sm">About More &gt; </Link> */}
                 </div>
               );
             })}

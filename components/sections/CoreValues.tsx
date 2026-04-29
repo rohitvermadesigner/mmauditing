@@ -18,7 +18,7 @@ const coreValueList = [
   {
     title: "INTEGRITY",
     description:
-      "Transparency, integrity, and ethics, with unwavering confidentiality and discretion.",
+      "Transparency, integrity, and ethical standards, upheld with unwavering confidentiality & discretion.",
     icon: "/images/core-values-icon-2.svg",
   },
   {
@@ -28,7 +28,7 @@ const coreValueList = [
     icon: "/images/core-values-icon-3.svg",
   },
   {
-    title: "COMPLIANCE FOCUS",
+    title: "COMMITMENT TO COMPLIANCE",
     description:
       "Guiding clients through UAE regulations to stay compliant and minimise risk.",
     icon: "/images/core-values-icon-4.svg",
@@ -36,22 +36,21 @@ const coreValueList = [
   {
     title: "PROFESSIONALISM",
     description:
-      "We combine professional excellence with genuine respect and collaboration.",
+      "Professional excellence, mutual respect, and true collaboration define the way we work with every client.",
     icon: "/images/core-values-icon-4.svg",
   },
 ];
 
 const CoreValues = () => {
   return (
-    <section className={` ${style.coreValuesSection} text-white`}>
+    <section className={` ${style.coreValuesSection} text-white bg-[linear-gradient(135deg,_#59168B,_#942681,_#293579)]`}>
       <div className="relative max-w-7xl mx-auto py-8 md:py-16 px-4 md:px-0 text-center">
         <div className="md:px-60">
           <h2 className="text-2xl md:text-4xl font-semibold mt-4 uppercase">
             Core Values Driving Every Decision
           </h2>
           <p className="px-4 font-medium mt-2">
-            Our core values guide every engagement, delivering transparency,
-            quality, and alignment for clients, team, and community.
+            Our core values guide every engagement, delivering transparency, quality, and alignment for our clients, team, and community.
           </p>
         </div>
 

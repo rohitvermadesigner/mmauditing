@@ -27,8 +27,7 @@ const LogoSlider = () => {
         <h2 className="text-2xl md:text-4xl font-semibold mt-4 uppercase">
           <span className="bg-gradient-to-r from-[#942681] to-[#293579] bg-clip-text text-transparent">
             Approved auditors 
-          </span> &nbsp;
-          in major UAE free zones
+          </span>&nbsp;in Major UAE Freezones
         </h2>
 
         <Swiper

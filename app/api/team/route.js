@@ -5,11 +5,11 @@ export async function GET() {
       designation: "MANAGING DIRECTOR",
       img: "/images/team/mansoor.webp",
     },
-    {
-      name: "SAJID SAJJAD",
-      designation: "CEO",
-      img: "/images/team/sajid.webp",
-    },
+    // {
+    //   name: "SAJID SAJJAD",
+    //   designation: "CEO",
+    //   img: "/images/team/sajid.webp",
+    // },
     {
       name: "MD AASIM AASI",
       designation: "Senior Manager - Audit & Assurance",
